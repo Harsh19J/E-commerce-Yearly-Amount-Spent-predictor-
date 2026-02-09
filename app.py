@@ -24,7 +24,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.title("🛍️ E-commerce Yearly Spending Predictor")
+st.title("E-commerce Yearly Spending Predictor")
 st.markdown("""
     Adjust the input parameters below to see the predicted **Yearly Amount Spent**
     (in dollars) based on the linear regression model.
@@ -73,7 +73,7 @@ if predicted_amount < 0:
 
 st.markdown("---")
 
-st.subheader("🎯 Predicted Yearly Amount Spent")
+st.subheader("Predicted Yearly Amount Spent")
 st.success(f"**${predicted_amount:,.2f}**")
 
 st.markdown("""
